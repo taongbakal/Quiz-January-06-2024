@@ -1,0 +1,165 @@
+
+
+header.header_wrapper{
+    background-color:black;
+
+}
+header .header_logo, .header_pic{
+    display:flex;
+    justify-content:center;
+}
+header .header_logo{
+    padding-top:5rem;
+    padding-bottom:1rem;
+}
+header ul li{
+    color:white;
+    list-style:none;
+    text-decoration:none;
+    padding:0.5rem;
+}
+header .header_pic{
+    display:flex;
+    justify-content:center;
+
+}
+header .header_nav ul{
+    display:flex;
+    justify-content:space-around;
+}
+header ul li:hover{
+    color:red;
+    background:white;
+}
+header ul{
+    padding:0.5;
+}
+.banner h4, h2, h5{
+    margin:0.5rem 0;
+}
+h5{
+    color:red;
+}
+.banner .banner_chance{
+    display:flex;
+}
+.banner .banner_chance img{
+    width:280px;
+}
+.banner .banner_offer{
+    background:black;
+    padding:0.5rem;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.banner .banner_offer h1{
+    color:white;
+    display:flex;
+    justify-content:center;
+}
+.banner .banner_offer p{
+    color:white;
+    display:flex;
+    justify-content:center;
+}
+.banner .banner_offer h4{
+    color:red;
+    background:white;
+    padding:2rem;
+    display:flex;
+    justify-content:center;
+    margin:2rem 0.8rem;
+}
+.banner .banner_style{
+    margin-top:1rem;
+    display:flex;
+    gap:1.3rem;
+
+}
+.banner .banner_style_text h6{
+    color:red;
+    margin:0rem;
+}
+.banner .banner_style_text h1{
+    margin-top:0rem;
+}
+.banner .banner_style_text h5{
+    color:white;
+    background:black;
+    padding:2rem 1.6rem;
+    margin:1rem;
+    display:flex;
+    justify-content:center;
+}
+.banner .banner_combining{
+    margin-top:1rem;
+    display:flex;
+    gap:1.3rem;
+
+}
+.banner .banner_combining_text h6{
+    color:red;
+    margin:0rem;
+}
+.banner .banner_combining_text h1{
+    margin-top:0rem;
+}
+.banner .banner_combining_text h5{
+    color:white;
+    background:black;
+    padding:2rem 1.6rem;
+    margin:1rem;
+    display:flex;
+    justify-content:center;
+}
+
+.footer{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+    
+.footer_anabel{
+    margin:3rem;
+}
+.footer_text{
+    margin:2rem;
+}
+.footer_logo_socials{
+    width:px;
+    display:flex;
+    justify-content:space-around;
+}
+.footer_logo_socials img{
+    width:30px;
+}
+.stripo{
+    display:flex;
+    justify-content:center;
+}
+body{
+   display:flex;
+   align-items:center;
+   flex-direction:column;
+
+}
+@media screen and(max-width:500px){
+    
+    .banner_chance{
+        display:block;
+       }
+       .banner_offer{
+        display:block;
+       }
+       .banner_combining{
+        display:block;
+       }
+       .banner_style{
+        display:flex;
+       }
+       .header__wrapper .header__nav{
+        display: none;
+       }
+}
